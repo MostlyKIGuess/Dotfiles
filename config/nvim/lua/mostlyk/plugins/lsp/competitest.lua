@@ -16,7 +16,9 @@ return {
 
 		-- Map <leader>ct to run all test cases
 		map("n", "<leader>ct", ":CompetiTest run<CR>", options)
-
+		map("n", "<leader>caa", ":CompetiTest add_testcase<CR>", options)
+		map("n", "<leader>cee", ":CompetiTest edit_testcase<CR>", options)
+		map("n", "<leader>crp", ":CompetiTest receive problem<CR>", options)
 		-- Map <leader>cui to open the UI
 		map("n", "<leader>cui", ":CompetiTest show_ui<CR>", options)
 	end,
