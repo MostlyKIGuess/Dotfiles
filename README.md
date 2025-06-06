@@ -1,6 +1,5 @@
 # Dotfiles
-I LOVE MY DOTS AND I WANT THEM ANYWHERE I GOOOOOOOOOOOOOOO
-
+wow this was so cringe before, i will more scripts hehe
 ## Installation
 - Start by doing this:
 ```sh
