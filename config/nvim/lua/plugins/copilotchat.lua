@@ -12,7 +12,6 @@ return {
         answer_header = "  Copilot ",
         sticky = {
           "#files:full",
-          "$claude-sonnet-4",
           "#buffers:visible",
         },
         window = {

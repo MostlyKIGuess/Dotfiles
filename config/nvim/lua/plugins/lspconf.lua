@@ -94,6 +94,17 @@ return {
             },
           },
         },
+        pyright = {
+          settings = {
+            python = {
+              analysis = {
+                -- Optional: disable other annoying checks
+                reportUnusedImport = false,
+                reportUnusedVariable = false,
+              },
+            },
+          },
+        },
       },
       -- you can do any additional lsp server setup here
       -- return true if you don't want this server to be setup with lspconfig
